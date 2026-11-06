@@ -3,5 +3,5 @@
 window.COOKBOOK_CONFIG = {
   supabaseUrl: 'https://zhalngkiqtereiufqrer.supabase.co/rest/v1/',
   supabasePublishableKey: 'sb_publishable_0ulmV1bCOS5IybTs2hc5dg_RRp8J9go',
-  ownerUserId: '' // UUID from Supabase Authentication > Users
+  ownerUserId: '12e40c45-1953-4ee7-a0a7-06bbdbdbe1d6'
 };
