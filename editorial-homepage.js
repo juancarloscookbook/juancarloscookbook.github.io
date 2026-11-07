@@ -80,7 +80,7 @@ function enhance(){
   hero.classList.add('jc-editorial-hero');
   let img=hero.querySelector('img');
   if(!img){img=document.createElement('img');hero.append(img)}
-  if(!img.getAttribute('src'))img.src='juan-carlos-hero.jpg';
+  if(!img.getAttribute('src'))img.src='juan-carlos-hero.jpg.png';
   img.alt='Artisan bread and olive oil against a deep blue backdrop';
   const welcome=section('welcome-area jc-home-wrap',`<span class="jc-eyebrow">${esc(val('editorialEyebrow'))}</span><h2>${esc(val('editorialTitle'))}</h2><p>${esc(val('editorialText'))}</p>`);
   root.insertBefore(welcome,hero.nextSibling);
