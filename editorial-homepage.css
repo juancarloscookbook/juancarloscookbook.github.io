@@ -100,3 +100,127 @@
 .illustrated-index .index-tile.index-to-try {
   background-color: #E5EAF0 !important;
 }
+
+/* JUAN CARLOS — HERITAGE EDITORIAL HEADER */
+
+body > header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "brand actions"
+    "nav nav";
+  align-items: center;
+  gap: 0;
+  padding: 0 5%;
+  background: #F8F6F2;
+  border-bottom: 1px solid #D6DEE5;
+  box-shadow: none;
+}
+
+body > header .brand {
+  grid-area: brand;
+  justify-self: start;
+  padding: 27px 0 23px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(23px, 2.4vw, 32px);
+  font-weight: 500;
+  letter-spacing: -.025em;
+  line-height: 1.2;
+  text-align: left;
+  color: #243C59;
+}
+
+body > header .right {
+  grid-area: actions;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+body > header .right button {
+  white-space: nowrap;
+  font-size: 13px;
+  padding: 11px 20px;
+}
+
+body > header #login {
+  border: 1px solid #B8C6D4;
+  background: transparent;
+  color: #243C59;
+}
+
+body > header #add {
+  background: #344E6B;
+  border-color: #344E6B;
+  color: white;
+}
+
+body > header nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: clamp(20px, 4vw, 55px);
+  padding: 0;
+  border-top: 1px solid #E0E5E9;
+}
+
+body > header nav button {
+  position: relative;
+  padding: 17px 2px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #34475C;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .085em;
+  text-transform: uppercase;
+}
+
+body > header nav button:hover {
+  color: #172B46;
+  opacity: 1;
+}
+
+body > header nav button:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #344E6B;
+}
+
+@media (max-width: 650px) {
+  body > header {
+    padding: 0 5%;
+    gap: 0;
+  }
+
+  body > header .brand {
+    font-size: 21px;
+    padding: 21px 0;
+  }
+
+  body > header .right {
+    gap: 7px;
+  }
+
+  body > header .right button {
+    font-size: 11px;
+    padding: 9px 12px;
+  }
+
+  body > header nav {
+    gap: 10px 20px;
+    justify-content: center;
+  }
+
+  body > header nav button {
+    padding: 14px 0;
+    font-size: 10px;
+    letter-spacing: .045em;
+  }
+}
