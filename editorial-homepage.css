@@ -95,3 +95,8 @@
 .index-to-try {
   background: #E5EAF0;
 }
+
+/* Ensure the To Try chapter matches the blue editorial palette */
+.illustrated-index .index-tile.index-to-try {
+  background-color: #E5EAF0 !important;
+}
