@@ -29,7 +29,7 @@ const descriptions={
 'Fish':['seafood','Fresh catches and coastal flavours.'],
 'Soups':['soups','Warm bowls and comforting favourites.'],
 'Sides & Sauces':['other','The finishing touches that make a meal.'],
-'To Try':['rice','New ideas for the next kitchen adventure.'],
+'To Try':['to-try','New ideas for the next kitchen adventure.'],
 'Main Courses':['meat','Memorable dishes for every table.'],
 'Chicken':['chicken','Simple classics and family favourites.'],
 'Seafood':['seafood','Fresh, elegant flavours from the sea.']
